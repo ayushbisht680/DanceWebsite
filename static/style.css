@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+  background-color: #00bcd4;
+  padding: 18px 0px;
+}
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul img {
+  height: 45px;
+  width: 47px;
+  filter: invert(1);
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 13px 30px;
+  font-family: "Pattaya", sans-serif;
+}
+#navbar li a:hover {
+  color: black;
+}
+
+section#first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  background: url("/static/backgrd.jpg") center/cover no-repeat;
+  height: 500px;
+  background-color: cadetblue;
+  font-size: 35px;
+}
+.content {
+  font-size: 30px;
+  margin: 30px;
+}
+.container {
+  margin: 12px;
+}
+section#mission {
+  height: 350px;
+  background-color: rgb(54 61 194 / 48%);
+}
+.mission {
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+.card {
+  border: 3px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  height: 200px;
+  width: 31%;
+  margin: 14px 12px;
+  background-color: white;
+}
+.card h2 {
+  text-align: center;
+  margin: 12px;
+}
+.card-box {
+  display: flex;
+}
+.card-img {
+  margin: 4px 4px;
+}
+.card-img img {
+  height: 93px;
+  width: 106px;
+}
+
+.card-para {
+  margin: 30px 9px;
+}
+section#second {
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+section#second h1 {
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.sponsers {
+  padding: 25px;
+}
+.imgsponsers {
+  height: 159px;
+  width: 212px;
+  margin: 24px 67px;
+}
+
+footer#foot {
+  background-color: rgb(13, 13, 14);
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

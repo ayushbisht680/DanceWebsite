@@ -1,0 +1,43 @@
+@media screen and (max-width: 1488px) {
+  section#mission {
+    height: 50%;
+    background-color: rgb(54 61 194 / 48%);
+    display: flex;
+    flex-direction: column;
+  }
+  .maxwidth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card h2 {
+    margin: 10px;
+    font-size: 15px;
+  }
+  .card-para {
+    margin: 0px 0px;
+  }
+  .card-img {
+    margin: 6px 4px;
+  }
+
+  section#second {
+    height: 50%;
+    text-align: center;
+    padding: 10px;
+
+    /* flex-direction: column; */
+  }
+  .sponsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+}

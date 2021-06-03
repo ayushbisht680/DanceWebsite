@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Dance Academy 
+    style
+      include ../static/style.css
+  body
+      nav#navbar 
+        ul 
+          img(src="/static/logo.png", alt="")
+          li #[a(href="/") Home ]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Info.]
+          li #[a(href="/") Contact Us]
+      section#first 
+       div.container Welcome to Best Dance Academy !
+       div.content Eat,Sleep,Dance,Repeat
+
+      section#mission 
+       div 
+         h2.mission Our Mission
+         div.card 
+             h2  This is a card
+             div.card-box
+                div.card-img
+                   img(src="/static/d1.png", alt="")
+
+                div.card-para
+                   p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, maxime.
+         div.card
+           h2  This is a card
+           div.card-box
+                div.card-img
+                   img(src="/static/d2.png", alt="")
+
+                div.card-para
+                   p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, maxime.
+         div.card 
+          h2  This is a card
+          div.card-box
+                div.card-img
+                   img(src="/static/d3.png", alt="")
+
+                div.card-para
+                   p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, maxime.
+         
+      section#second 
+       h1 Our Sponsors  
+       div.sponsers
+          img(src="/static/myntra-logo.png", alt="" class="imgsponsers")
+          img(src="/static/d1.png", alt="" class="imgsponsers")
+          img(src="/static/myntra-logo.png", alt="" class="imgsponsers")
+          img(src="/static/myntra-logo.png", alt="" class="imgsponsers")
+      footer#foot 
+       | | Copywrite ©  2021 DanceAcademy.com | All right reserved.
+script
+      include ../static/script.js

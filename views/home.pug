@@ -1,0 +1,57 @@
+extends layout.pug
+
+block scripts
+  script(src= '../static/script.js')
+block style 
+  style 
+   include ../static/style.css 
+   include  ../static/phone.css
+
+
+block content
+   
+    section#first 
+       div.container Welcome to Best Dance Academy !
+       div.content Eat,Sleep,Dance,Repeat
+
+    section#mission
+     div.maxwidth
+       
+         h2.mission Our Mission
+         div.card 
+             h2 LEARN TO DANCE AT ANY EVENT
+             div.card-box
+                div.card-img
+                   img(src="/static/d1.png", alt="")
+
+                div.card-para
+                   p For any events with dancing involved, we are here to provide assistence in developing your dancing skills. Our team is ready to take care of you with patience an an individual approach. 
+
+
+         div.card
+           h2  ONLINE PLATFORM FOR YOU 
+           div.card-box
+                div.card-img
+                   img(src="/static/d2.png", alt="")
+
+                div.card-para
+                   p We are able to provide you with online dance lessons through the communication platform of your choice. So whether you prefer Zoom, Google Meet, Skype, or WhatsApp, we have you covered. 
+
+         div.card 
+          h2  WHY CHOOSE OUR DANCE LESSONS
+          div.card-box
+                div.card-img
+                   img(src="/static/d3.png", alt="")
+
+                div.card-para
+                   p Our dance school has been specializing in teaching individual lessons for 10 years. We will be happy to help you learn to dance, even if you have a busy schedule or you can’t come to the studio.
+         
+    section#second 
+       h1 Our Sponsors  
+       div.sponsers
+          img(src="/static/myntra-logo.png", alt="" class="imgsponsers")
+          img(src="/static/flipkart.png", alt="" class="imgsponsers")
+          img(src="/static/ajio.jpg", alt="" class="imgsponsers")
+          img(src="/static/Amazon logo.png", alt="" class="imgsponsers")
+
+
